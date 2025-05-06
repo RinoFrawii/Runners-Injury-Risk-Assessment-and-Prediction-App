@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:5000/predict"
+url = "https://stridesafe.onrender.com/predict"
 
 data = {
     "features": [22, 1, 2, 5, 0, 2, 4, 1, 2, 24, 30]  # sample with all encoded values
